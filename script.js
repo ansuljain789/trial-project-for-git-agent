@@ -28,3 +28,25 @@ function lcs(X, Y) {
 
     return L[m][n];
 }
+
+//rps 
+function playRPS(player1, player2) {
+    const choices = ["rock", "paper", "scissors"];
+    if (!choices.includes(player1) || !choices.includes(player2)) {
+        return "Invalid choice!";
+    }
+    
+    if (player1 === player2) {
+        return "It's a tie!";
+    }
+    
+    if (
+        (player1 === "rock" && player2 === "scissors") ||
+        (player1 === "paper" && player2 === "rock") ||
+        (player1 === "scissors" && player2 === "paper")
+    ) {
+        return "Player 1 wins!";
+    } else {
+        return "Player 2 wins!";
+    }
+}
