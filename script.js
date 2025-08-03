@@ -50,3 +50,10 @@ function playRPS(player1, player2) {
         return "Player 2 wins!";
     }
 }
+
+// Example usage of lcs
+const str1 = "AGGTAB";
+const str2 = "GXTXAYB";
+console.log("Length of LCS is: " + lcs(str1, str2));
+// Example usage of playRPS
+console.log(playRPS("rock", "scissors")); // Player 1 wins!
