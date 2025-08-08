@@ -109,3 +109,9 @@ function romanToInt(s) {
 
 
 console.log("hii mihir");
+
+
+//sum of two numbers
+function sumOfTwoNumbers(num1, num2) {
+    return num1 + num2;
+}
