@@ -117,3 +117,7 @@ function sumOfTwoNumbers(num1, num2) {
 }
 
 
+////difference of two numbers
+function differenceOfTwoNumbers(num1, num2) {
+    return num1 - num2;
+}
