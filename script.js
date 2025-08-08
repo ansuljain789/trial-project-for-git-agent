@@ -121,3 +121,15 @@ function sumOfTwoNumbers(num1, num2) {
 function differenceOfTwoNumbers(num1, num2) {
     return num1 - num2;
 }
+
+
+///print linkdlist
+function printLinkedList(head) {
+    let current = head;
+    const result = [];
+    while (current) {
+        result.push(current.value);
+        current = current.next;
+    }
+    return result.join(" -> ");
+}
