@@ -143,3 +143,8 @@ localStorage.setItem("age", "21");
 
 console.log("Data stored in localStorage.");
 console.log("Name: " + localStorage.getItem("name"));
+
+console.log(
+    "hiii very good morning have a nice day"
+);
+
